@@ -134,6 +134,10 @@ public class SubscribeProcessor extends AbstractProcessor {
 
     /**
      * 解析所有被 @Subscribe 注解的类元素集合
+     * Element:
+     *  TypeElement: 类或接口类型
+     *  VariableElement: 成员变量
+     *  ExecutableElement: 成员方法
      * @param elements
      * @throws IOException
      */
